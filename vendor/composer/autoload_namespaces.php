@@ -7,7 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Component\\Routing' => $vendorDir . '/symfony/routing/',
+    'Symfony\\Component\\HttpKernel' => $vendorDir . '/symfony/http-kernel/',
     'Symfony\\Component\\HttpFoundation' => $vendorDir . '/symfony/http-foundation/',
+    'Symfony\\Component\\EventDispatcher' => $vendorDir . '/symfony/event-dispatcher/',
     'Symfony\\Component\\ClassLoader' => $vendorDir . '/symfony/class-loader/',
+    'Simplex' => $baseDir . '/src/',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs',
+    'Calendar' => $baseDir . '/src/',
 );
